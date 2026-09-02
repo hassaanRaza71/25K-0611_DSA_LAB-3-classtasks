@@ -5,13 +5,13 @@ class Product {
 	public:
 		int id;
 		string name;
-		int date; // Day of the month
+		int date; 
 		Product() {}		
 		Product(int id, string name, int date) : id(id), name(name), date(date) {}		
 };
 
 void bubbleSort(int* arr, int n) {
-	//Ascending Order
+	
 	for (int i = 0; i < n - 1; i++) {
 		bool swapped = 	false;				
 		for (int j = i; j < n - i - 1; j++) {
@@ -26,7 +26,7 @@ void bubbleSort(int* arr, int n) {
 }
 
 void bubbleSortProduct(Product* arr, int n) {
-	//Ascending Order
+	
 	for (int i = 0; i < n - 1; i++) {
 		bool swapped = 	false;				
 		for (int j = i; j < n - i - 1; j++) {
